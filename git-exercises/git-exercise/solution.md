@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Git Excercise insights
 1. 
    - echo "sample">>test.txt
@@ -116,14 +117,6 @@
 
 10.
 
-   echo 'Hello, World!' | git hash-object --stdin
-
-   b14aa207f059a4e91827baa8d701781d2667bb39
-
-   echo 'blob 14\0Hello, World!' | openssl sha1
-     'openssl' is not recognized as an internal or external command,operable program or batch file.
-    
-11.
     $ git log  
     $ git log --oneline  
     $ git log --stat  
@@ -149,7 +142,16 @@
     h. By Range
        $git log ..
        $git log master..feature
- 
 
- 12. 
+ 11.
+      echo 'Hello, World!' | git hash-object --stdin
+
+      b14aa207f059a4e91827baa8d701781d2667bb39
+
+      echo 'blob 14\0Hello, World!' | openssl sha1
+      
+      'openssl' is not recognized as an internal or external command,operable program or batch file.
+
+ 12. git revert 84c895caa927231595a4b1f8a9f8d72f7ec7a5c6
      
+
